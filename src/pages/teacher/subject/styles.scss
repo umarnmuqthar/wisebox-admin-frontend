@@ -1,0 +1,30 @@
+
+.chapters-section {
+    .card-item {
+        border-radius: 0.4rem;
+        color: #fff;
+        cursor: pointer;
+        background-color: #02B290;
+    
+        &:hover {
+            background-color: #04866c !important;
+        }
+
+        .count {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h5 {
+                margin: 0;
+            }
+        }
+        
+        h5 {
+            font-size: 1rem;
+        }
+
+        h6 {
+            font-size: 0.8rem;
+        }
+    }
+}

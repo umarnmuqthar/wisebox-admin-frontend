@@ -1,0 +1,43 @@
+.question-select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    span {
+        width: 2.3rem;
+        height: 2rem;
+        line-height: 2rem;
+        padding: 0;
+        margin-bottom: 1rem;
+
+        &:hover {
+            background: dimgray !important;
+            cursor: pointer;
+            color: #fff !important;
+        }
+    }
+
+    &::after {
+        content: "";
+        flex: auto;
+    }
+}
+
+.question-modal {
+    .question-form {
+        textarea {
+            height: 100px;
+        }
+    }
+}
+
+/* mobile screens */
+@media only screen and (max-width: 600px) {
+    .question-top {
+        flex-direction: column;
+        .action-buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+  }

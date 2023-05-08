@@ -1,0 +1,28 @@
+
+.class-section {
+    .card-item {
+        border-radius: 0.4rem;
+        color: #fff;
+        cursor: pointer;
+        background-color: #02B290;
+    
+        &:hover {
+            background-color: #04866c !important;
+        }
+    
+        h5 {
+            font-size: 1rem;
+        }
+
+        h6 {
+            font-size: 0.8rem;
+        }
+    }
+    .papers {
+        .card-item {
+            &:hover {
+                background-color: rgba(0,0,0,0.7) !important
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.object {
+  animation: MoveUpDown 5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%);
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 50%;
+  }
+  50% {
+    bottom: calc(50% - 60px);
+  }
+}

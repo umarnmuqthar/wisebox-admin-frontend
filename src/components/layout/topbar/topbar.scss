@@ -1,0 +1,47 @@
+.topbar {
+    box-shadow: 4px 0px 10px rgba(0,0,0,0.3);
+    height: 8vh;
+    background-color: #242B2E;
+    z-index: 9;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 2rem;
+    left: 0;
+
+    p {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .navbar-brand {
+        .breadcrumb {
+            margin: 0;
+            font-size: 0.7rem;
+            a  {
+                color: #fff;
+            }
+        }
+    }
+
+    .navbar-menu {  
+        display: flex;
+        p.sign-out {
+            margin-left: 1.5rem;
+            font-size: 0.9rem;
+            cursor: pointer;
+            width: 100px;
+            text-align: center;
+            font-weight: bold;
+            padding: 0.2rem;
+            border-radius: 0.5rem;
+            background-color:#455257;
+
+            &:hover {
+                background-color: #2f383b;
+            }
+        }
+    }
+}

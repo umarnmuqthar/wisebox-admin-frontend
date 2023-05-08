@@ -1,0 +1,31 @@
+
+.slabs {
+    margin-top: 2rem;
+    .slabs-table {
+        .slab-title {
+            cursor: pointer;
+    
+            &:hover {
+                color: royalblue;
+            }
+        }
+        tr {
+            vertical-align: middle;
+        }
+        .action-icons {
+            i {
+                font-size: 0.8rem;
+                margin-right: 0.5rem;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .add-button {
+        margin-right: 4rem;
+
+        button {
+            font-size: 0.9rem;
+        }
+    }
+}

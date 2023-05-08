@@ -1,0 +1,19 @@
+.home-sections {
+    .card-item {
+        border-radius: 0.4rem;
+        color: #fff;
+        cursor: pointer;
+        background-color: #02B290;
+    
+        &:hover {
+            background-color: #04866c !important;
+        }
+    
+        h6 {
+            font-size: 1.1rem;
+            margin: 0;
+            padding: .5rem 0;
+            text-align: center;
+        }
+    }
+}
